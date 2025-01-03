@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>FrameScape</title>
+</head>
+
+<body>
+    <nav class="navbar" style="padding: 20px 30px";>
+        <div class="navbar-container">
+            <a href="index.html" class="nav-logo">
+                <img src="assets/logo.png" alt="FrameScape logo">
+            </a>
+
+            <div class="nav-toggle"><i class="fa-solid fa-bars"></i></div>
+        </div>
+
+        <div class="search-bar-container">
+            <input type="text" placeholder="What're you looking for?">
+            <i class="fas fa-search search-icon"></i>
+        </div>
+
+        <div class="nav-menu">
+            <a href="#">Track Order</a>
+            <a href="#">Cart</a>
+            <a href="#">Wishlist</a>
+            <a href="#" class="resume-button">LOG IN</a>
+        </div>
+    </nav>
+
+    <div class="top-links">
+        <a href="#">Eyeglasses</a>
+        <a href="#">Screen Glasses</a>
+        <a href="#">Kids Glasses</a>
+        <a href="#">Contact Lenses</a>
+        <a href="#">Sunglasses</a>
+        <a href="#">Store Locator</a>
+    </div>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="assets/image 1.png" alt="Image 1">
+            <p>Eyeglasses</p>
+        </div>
+        <div class="box">
+            <img src="assets/image 2.png" alt="Image 2">
+            <p>Sunglasses</p>
+        </div>
+        <div class="box">
+            <img src="assets/image 3.png" alt="Image 3">
+            <p>Contact Lenses</p>
+        </div>
+        <div class="box">
+            <img src="assets/image 4.jpg" alt="Image 4">
+            <p>Power Sunglasses</p>
+        </div>
+        <div class="box">
+            <img src="assets/image 5.jpg" alt="Image 4">
+            <p>Progressive Lenses</p>
+        </div>
+        <div class="box">
+            <img src="assets/image 6.jpg" alt="Image 4">
+            <p>Screen Glasses</p>
+        </div>
+    </div>
+
+    <div class="position-relative marquee-container d-none d-sm-block">
+        <div class="marquee d-flex">
+            <span><img src="assets/company 1.png" style="padding-top: 18px;" alt="Company 1"></span>
+            <span><img src="assets/company 2.png" alt="Company 2"></span>
+            <span><img src="assets/company 3.png" style="width: 75px; padding-top: 10px;" alt="Company 3"></span>
+            <span><img src="assets/company 4.png" style="padding-top: 6px;" alt="Company 4"></span>
+            <span><img src="assets/company 5.png" style="padding-top: 22px;" alt="Company 5"></span>
+            <span><img src="assets/company 6.png" style="padding-top: 6px;" alt="Company 6"></span>
+            <span><img src="assets/company 7.png" style="padding-top: 8px;" alt="Company 1"></span>
+            <span><img src="assets/company 8.png" style="width: 120px; padding-top: 22px;" alt="Company 2"></span>
+            <span><img src="assets/company 9.png" style="width: 140px; padding-top: 22px;" alt="Company 3"></span>
+            <span><img src="assets/company 10.png" style="padding-top: 18px;" alt="Company 4"></span>
+            <span><img src="assets/company 1.png" style="padding-top: 18px;" alt="Company 1"></span>
+            <span><img src="assets/company 2.png" alt="Company 2"></span>
+            <span><img src="assets/company 3.png" style="width: 75px; padding-top: 10px;" alt="Company 3"></span>
+            <span><img src="assets/company 4.png" style="padding-top: 6px;" alt="Company 4"></span>
+            <span><img src="assets/company 5.png" style="padding-top: 22px;" alt="Company 5"></span>
+            <span><img src="assets/company 6.png" style="padding-top: 6px;" alt="Company 6"></span>
+            <span><img src="assets/company 7.png" style="padding-top: 8px;" alt="Company 1"></span>
+            <span><img src="assets/company 8.png" style="width: 120px; padding-top: 22px;" alt="Company 2"></span>
+            <span><img src="assets/company 9.png" style="width: 140px; padding-top: 22px;" alt="Company 3"></span>
+            <span><img src="assets/company 10.png" style="padding-top: 18px;" alt="Company 4"></span>
+        </div>
+    </div>
+
+    <br>
+    <div class="ad1">
+        <a href="#"><img src="assets/ad 1.jpg" alt="Ad 1"><a>
+    </div>   
+
+    <div class="line-with-text">
+        <span class="line"></span>
+        <span class="text">OUR COLLECTION</span>
+        <span class="line"></span>
+    </div>
+
+    <div class="slider-container">
+        <!-- Left Arrow -->
+        <button class="arrow left-arrow" onclick="moveSlide('left')">&#10094;</button>
+        
+        <!-- Slider -->
+        <div class="slider">
+            <!-- Individual Items (total 10 items for this example) -->
+            <div class="item-box">
+                <img src="assets/frame 1.webp" alt="Item 1">
+                <p class="text1">Titan Luxe</p>
+                <p class="text2">Sleek and modern design</p>
+                <p class="text3">Price: ₹2,499</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 2.webp" alt="Item 2">
+                <p class="text1">Aurora Vision</p>
+                <p class="text2">Stylish, all-day comfort</p>
+                <p class="text3">Price: ₹1,799</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 3.webp" alt="Item 3">
+                <p class="text1">SteelVibe Classic</p>
+                <p class="text2">Durable, minimalistic frame</p>
+                <p class="text3">Price: ₹1,999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 4.webp" alt="Item 4">
+                <p class="text1">Eclipse Sport</p>
+                <p class="text2">Sporty, lightweight build</p>
+                <p class="text3">Price: ₹3,299</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 5.webp" alt="Item 5">
+                <p class="text1">Urban Edge</p>
+                <p class="text2">Trendy with bold lines</p>
+                <p class="text3">Price: ₹2,799</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 6.webp" alt="Item 6">
+                <p class="text1">Prestige Focus</p>
+                <p class="text2">High-quality, premium finish</p>
+                <p class="text3">Price: ₹4,199</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 7.webp" alt="Item 7">
+                <p class="text1">Luxe Glow</p>
+                <p class="text2">Elegant with a chic design</p>
+                <p class="text3">Price: ₹2,399</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 8.webp" alt="Item 8">
+                <p class="text1">ClearSight Vision</p>
+                <p class="text2">Comfortable, clear vision</p>
+                <p class="text3">Price: ₹1,499</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 9.webp" alt="Item 9">
+                <p class="text1">RetroFlair</p>
+                <p class="text2">Vintage-inspired style</p>
+                <p class="text3">Price: ₹2,149</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 10.webp" alt="Item 10">
+                <p class="text1">Zenith Flex</p>
+                <p class="text2">Flexible, robust frame</p>
+                <p class="text3">Price: ₹2,649</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        
+        <!-- Right Arrow -->
+        <button class="arrow right-arrow" onclick="moveSlide('right')">&#10095;</button>
+    </div>
+
+    <br>
+
+    <div class="slider-container">
+        <!-- Left Arrow -->
+        <button class="arrow left-arrow" onclick="moveSlide('left')">&#10094;</button>
+        
+        <!-- Slider -->
+        <div class="slider">
+            <!-- Individual Items (total 10 items for this example) -->
+            <div class="item-box">
+                <img src="assets/frame 11.webp" alt="Item 1">
+                <p class="text1">CrystalWave</p>
+                <p class="text2">Sleek, translucent finish</p>
+                <p class="text3">Price: ₹2,199</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 12.webp" alt="Item 2">
+                <p class="text1">VividQuest</p>
+                <p class="text2">Bold colors, standout style</p>
+                <p class="text3">Price: ₹2,599</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 13.webp" alt="Item 3">
+                <p class="text1">Luxora Vision</p>
+                <p class="text2">Premium craftsmanship, elegant fit</p>
+                <p class="text3">Price: ₹3,199</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 14.webp" alt="Item 4">
+                <p class="text1">AeroFlex</p>
+                <p class="text2">Lightweight and flexible frame</p>
+                <p class="text3">Price: ₹1,899</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 15.webp" alt="Item 5">
+                <p class="text1">Nova Chic</p>
+                <p class="text2">Trendy with bold lines</p>
+                <p class="text3">Price: ₹2,799</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 16.webp" alt="Item 6">
+                <p class="text1">Urban Quest</p>
+                <p class="text2">Fashion-forward urban style</p>
+                <p class="text3">Price: ₹4,199</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 17.webp" alt="Item 7">
+                <p class="text1">Sapphire Fit</p>
+                <p class="text2">Sleek, comfortable all-day wear</p>
+                <p class="text3">Price: ₹2,399</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 18.webp" alt="Item 8">
+                <p class="text1">Echo Vision</p>
+                <p class="text2">Clean lines, minimalist look</p>
+                <p class="text3">Price: ₹1,499</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 19.webp" alt="Item 9">
+                <p class="text1">Phoenix Pro</p>
+                <p class="text2">Bold, sport-ready frame</p>
+                <p class="text3">Price: ₹2,149</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="item-box">
+                <img src="assets/frame 20.webp" alt="Item 10">
+                <p class="text1">Inspire Flex</p>
+                <p class="text2">Flexible, stylish design</p>
+                <p class="text3">Price: ₹2,649</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        
+        <!-- Right Arrow -->
+        <button class="arrow right-arrow" onclick="moveSlide('right')">&#10095;</button>
+    </div>    
+
+    <br>
+    <a href="#" style="font-size: large; color: #008080">View Full Collection</a>
+    <br><br>
+
+    <br>
+
+    <div class="ad1">
+        <a href="#"><img src="assets/ad 2.jpg" alt="Ad 2"><a>
+    </div>   
+    
+    <div class="line-with-text">
+        <span class="line"></span>
+        <span class="text">Customer Reviews</span>
+        <span class="line"></span>
+    </div>
+    <br>
+
+    <div class="reviews-container">
+        <div class="review-box">
+          <div class="quote-icon">&#8220;</div>
+          <p class="review-text">
+            I'm in love with my new frames from FrameScape! They're stylish, comfortable, 
+            and arrived so quickly. Definitely my go-to for all future eyewear purchases!
+          </p>
+          <p class="review-author">Sophia L.</p>
+        </div>
+      
+        <div class="review-box">
+          <div class="quote-icon">&#8220;</div>
+          <p class="review-text">
+            The quality of the lenses is outstanding, and the fit is perfect. Shopping was a breeze, 
+            and I love how many styles they have. Highly recommend!
+          </p>
+          <p class="review-author">James R.</p>
+        </div>
+      
+        <div class="review-box">
+          <div class="quote-icon">&#8220;</div>
+          <p class="review-text">
+            Fantastic experience! The frames are gorgeous. I feel confident in my new look. Thank you!
+          </p>
+          <p style="padding-top:48px;" class="review-author">Olivia K.</p>
+        </div>
+      </div>
+
+    <br><br><br>
+    
+    <section id="form">
+        <div class="line-with-text">
+            <span class="line"></span>
+            <span class="text">CONTACT US</span>
+            <span class="line"></span>
+        </div>
+
+        <form id="myform">      
+            <input name="name" type="text" class="feedback-input" placeholder="Name" required>   
+            <input name="email" type="email" class="feedback-input" placeholder="Email" required>
+            <textarea name="text" class="feedback-input" placeholder="Comment" required></textarea>
+            <div class="newsletter-section">
+                <label for="newsletter" class="newsletter-label">
+                  <input type="checkbox" id="newsletter" name="newsletter" class="newsletter-checkbox">
+                    Sign up to newsletter
+                </label>
+            </div>
+              
+            <input type="submit" value="SUBMIT">
+        </form>
+    </section>
+    <br><br><br>
+
+    <footer class="footer">
+  <div class="social-icons">
+    <a href="#" class="icon">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="#" class="icon">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="#" class="icon">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="#" class="icon">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="#" class="icon">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="#" class="icon">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+  </div>
+  <p class="footer-text">2025 &copy; FrameScape</p>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
